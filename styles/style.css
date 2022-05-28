@@ -185,6 +185,11 @@ p{
 .btn-other {
 	display: none;
 }
+
+.text-2 {
+	margin-top: 1em;
+}
+
 /* for small screens and mobile devices */
 
 @media screen and (max-width: 680px) {
