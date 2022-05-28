@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Inter:wght@100;300;400;500;600;700&family=Open+Sans:wght@300;400;500&family=Poppins:wght@200;300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	overflow: hidden !important;
+}
+
+header{
+    background: #2E2E2E;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+	
+
+}
+
+.text-3 {
+	font-family: TT;
+	font-size: 1.2em;
+}
+
+@font-face {
+	font-family: TT;
+	src: url('../assets/fonts/Demo_Fonts/Fontspring-DEMO-tt_fors_regular.otf');
+}
+
+@font-face {
+	font-family: Nove;
+	src: url('../assets/fonts/npva/Nove.ttf');
+}
+
+
+@font-face {
+	font-family: Nov;
+	src: url('../assets/fonts/FontsFree-Net-Jeko-Variable (1).ttf');
+}
+.text-1 {
+	font-family: nov;
+}
+.Soon{
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+
+.text-1{
+			font-size: 70px;	
+}
+
+.text-3 span {
+ color: #FFD500;
+ font-weight: 500;
+}
+
+.text-2{
+			font-size: 10px;	
+			font-size: TT;
+}
+
+.form form{
+				margin:50px 0;
+				position: absolute;
+				
+				
+	}
+
+
+.form{
+				height: 50px;
+				width: 30%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				background: #fff;
+				border-radius: 5px;	
+				margin: 2em 0;	
+				margin: auto;
+				
+			 
+	 }
+
+.text-2 {
+			font-size: 16px;
+			text-align: center;	
+			line-height: 1.8;
+			font-family: 'open sans', sans-serif;
+}
+	 
+
+.form input[type="email"]{
+				height: 100%;
+			
+				border: none;
+				outline: none;
+
+				
+				
+	 }
+
+
+
+
+.form input[type="submit"]:hover{
+				background: #c1f100;
+				border: 1px solid #00AFF1;
+		}
+
+
+
+
+
+h1{
+    font-size: 65px;
+    letter-spacing: 15px;
+}
+hr{
+    width: 100%;
+    border: 1.5px solid #fff;
+}
+p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+.btn {
+	font-family: 'Open Sans';
+	font-size: 15px;
+	font-weight: 400;
+	padding: 0.5em 1em;
+	text-align: center;
+	background: #FFD500;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+	font-weight: bold;
+	margin-right: 1em;
+}
+
+.socials {
+	color: white;
+	font-size: 30px;
+
+}
+
+.socials ul li {
+	display: flex;
+	gap: 1em;
+
+	
+}
+
+.socials ul {
+	margin: 0 2em;
+	list-style-type: none;
+	position: absolute;
+	bottom: 2em;
+	right:0;
+}
+
+.logo {
+	position: absolute;
+	top: 2em;
+	padding:0 2em;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	z-index: 1;
+}
+
+
+.btn-other {
+	display: none;
+}
+/* for small screens and mobile devices */
+
+@media screen and (max-width: 680px) {
+	.btn {
+		font-size: 15px;
+		padding: 0.9em 1em;
+		
+		position: relative;
+		display: none;
+		
+	}	
+
+	.form {
+		width: 80%;
+	}
+
+	.btn-other {
+		
+		padding: 1.2em ;
+		width: 80%;
+		background-color: yellow;
+		border: none;
+		border-radius: 5px;
+		font-weight: bold;
+		display: block;
+		margin: 0.5em auto;
+
+	}
+
+	.text-2 {
+
+	}
+
+
+}
+
